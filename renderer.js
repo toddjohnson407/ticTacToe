@@ -48,7 +48,7 @@ var enableRestart = function(isTie) {
   //creates restart button
   var restartButton = document.createElement("BTN");
   restartButton.setAttribute("id", "restart");
-  restartButton.innerText = "restart game";
+  restartButton.innerText = "Restart Game";
   container.appendChild(restartButton);
 
   // calls restartGame function when clicked
