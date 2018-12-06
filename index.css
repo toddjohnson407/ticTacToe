@@ -1,3 +1,43 @@
+body {
+  background-color: white;
+}
+
+.container {
+  margin-top: 10vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.title {
+  color: black;
+  font-size: 35px;
+}
 .gameBoard {
+  margin-top: 12vh;
+  display: grid;
+  align-self: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 200px;
+  height: 200px;
+}
+
+.singleSquare {
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+  background-color: white;
+}
+
+#restart {
+  padding: 5px;
   background-color: yellow;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+#winnerText {
+  margin-top: 20px;
+  color: black;
+  font-size: 24px;
 }
